@@ -1,0 +1,73 @@
+//zero ve sign extend modulu
+module sign_zero_extend(signextend,zeroextend,immediated);
+
+input [15:0] immediated;
+output [31:0] signextend,zeroextend;
+
+buf sign0(signextend[0],immediated[0]);
+buf sign1(signextend[1],immediated[1]);
+buf sign2(signextend[2],immediated[2]);
+buf sign3(signextend[3],immediated[3]);
+buf sign4(signextend[4],immediated[4]);
+buf sign5(signextend[5],immediated[5]);
+buf sign6(signextend[6],immediated[6]);
+buf sign7(signextend[7],immediated[7]);
+buf sign8(signextend[8],immediated[8]);
+buf sign9(signextend[9],immediated[9]);
+buf sign10(signextend[10],immediated[10]);
+buf sign11(signextend[11],immediated[11]);
+buf sign12(signextend[12],immediated[12]);
+buf sign13(signextend[13],immediated[13]);
+buf sign14(signextend[14],immediated[14]);
+buf sign15(signextend[15],immediated[15]);
+buf sign16(signextend[16],immediated[15]);
+buf sign17(signextend[17],immediated[15]);
+buf sign18(signextend[18],immediated[15]);
+buf sign19(signextend[19],immediated[15]);
+buf sign20(signextend[20],immediated[15]);
+buf sign21(signextend[21],immediated[15]);
+buf sign22(signextend[22],immediated[15]);
+buf sign23(signextend[23],immediated[15]);
+buf sign24(signextend[24],immediated[15]);
+buf sign25(signextend[25],immediated[15]);
+buf sign26(signextend[26],immediated[15]);
+buf sign27(signextend[27],immediated[15]);
+buf sign28(signextend[28],immediated[15]);
+buf sign29(signextend[29],immediated[15]);
+buf sign30(signextend[30],immediated[15]);
+buf sign31(signextend[31],immediated[15]);
+
+buf zero0(zeroextend[0],immediated[0]);
+buf zero1(zeroextend[1],immediated[1]);
+buf zero2(zeroextend[2],immediated[2]);
+buf zero3(zeroextend[3],immediated[3]);
+buf zero4(zeroextend[4],immediated[4]);
+buf zero5(zeroextend[5],immediated[5]);
+buf zero6(zeroextend[6],immediated[6]);
+buf zero7(zeroextend[7],immediated[7]);
+buf zero8(zeroextend[8],immediated[8]);
+buf zero9(zeroextend[9],immediated[9]);
+buf zero10(zeroextend[10],immediated[10]);
+buf zero11(zeroextend[11],immediated[11]);
+buf zero12(zeroextend[12],immediated[12]);
+buf zero13(zeroextend[13],immediated[13]);
+buf zero14(zeroextend[14],immediated[14]);
+buf zero15(zeroextend[15],immediated[15]);
+buf zero16(zeroextend[16],1'b0);
+buf zero17(zeroextend[17],1'b0);
+buf zero18(zeroextend[18],1'b0);
+buf zero19(zeroextend[19],1'b0);
+buf zero20(zeroextend[20],1'b0);
+buf zero21(zeroextend[21],1'b0);
+buf zero22(zeroextend[22],1'b0);
+buf zero23(zeroextend[23],1'b0);
+buf zero24(zeroextend[24],1'b0);
+buf zero25(zeroextend[25],1'b0);
+buf zero26(zeroextend[26],1'b0);
+buf zero27(zeroextend[27],1'b0);
+buf zero28(zeroextend[28],1'b0);
+buf zero29(zeroextend[29],1'b0);
+buf zero30(zeroextend[30],1'b0);
+buf zero31(zeroextend[31],1'b0);
+
+endmodule 
